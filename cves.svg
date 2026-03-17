@@ -1,4 +1,4 @@
-<svg width="800" height="620" viewBox="0 0 800 620" xmlns="http://www.w3.org/2000/svg">
+<svg width="800" height="680" viewBox="0 0 800 680" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <style>
       .bg { fill: #0d1117; }
@@ -22,7 +22,7 @@
     </style>
   </defs>
 
-  <rect width="800" height="620" fill="#0d1117" rx="8"/>
+  <rect width="800" height="680" fill="#0d1117" rx="8"/>
 
   <!-- Title -->
   <text x="24" y="30" class="title">CVE RESEARCH</text>
@@ -175,23 +175,23 @@
   <text x="220" y="454" class="cve-score-medium">5.1</text>
 
   <!-- ROW 7 — Low -->
-  <rect x="396" y="408" width="178" height="56" rx="4" class="card-low"/>
-  <rect x="396" y="408" width="3" height="56" rx="2" class="accent-low"/>
-  <text x="406" y="426" class="cve-id">CVE-2025-40710</text>
-  <text x="406" y="440" class="cve-type">Host Header Injection</text>
-  <text x="406" y="454" class="cve-score-low">2.3</text>
-
-  <rect x="582" y="408" width="194" height="56" rx="4" class="card-low"/>
-  <rect x="582" y="408" width="3" height="56" rx="2" class="accent-low"/>
-  <text x="592" y="426" class="cve-id">CVE-2025-40631</text>
-  <text x="592" y="440" class="cve-type">Host Header Injection</text>
-  <text x="592" y="454" class="cve-score-low">2.0</text>
-
   <rect x="24" y="476" width="178" height="56" rx="4" class="card-low"/>
   <rect x="24" y="476" width="3" height="56" rx="2" class="accent-low"/>
-  <text x="34" y="494" class="cve-id">CVE-2025-40632</text>
-  <text x="34" y="508" class="cve-type">Cross-Site Scripting</text>
-  <text x="34" y="522" class="cve-score-low">2.0</text>
+  <text x="34" y="494" class="cve-id">CVE-2025-40710</text>
+  <text x="34" y="508" class="cve-type">Host Header Injection</text>
+  <text x="34" y="522" class="cve-score-low">2.3</text>
+
+  <rect x="210" y="476" width="178" height="56" rx="4" class="card-low"/>
+  <rect x="210" y="476" width="3" height="56" rx="2" class="accent-low"/>
+  <text x="220" y="494" class="cve-id">CVE-2025-40631</text>
+  <text x="220" y="508" class="cve-type">Host Header Injection</text>
+  <text x="220" y="522" class="cve-score-low">2.0</text>
+
+  <rect x="396" y="476" width="178" height="56" rx="4" class="card-low"/>
+  <rect x="396" y="476" width="3" height="56" rx="2" class="accent-low"/>
+  <text x="406" y="494" class="cve-id">CVE-2025-40632</text>
+  <text x="406" y="508" class="cve-type">Cross-Site Scripting</text>
+  <text x="406" y="522" class="cve-score-low">2.0</text>
 
   <!-- Bottom line -->
   <line x1="24" y1="552" x2="776" y2="552" stroke="#21262d" stroke-width="0.5"/>
