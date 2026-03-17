@@ -1,0 +1,200 @@
+<svg width="800" height="620" viewBox="0 0 800 620" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .bg { fill: #0d1117; }
+      .card { fill: #161b22; stroke: #21262d; stroke-width: 0.5; rx: 6; }
+      .card-critical { fill: #1a0a0a; stroke: #f85149; stroke-width: 0.5; }
+      .card-high { fill: #1a1200; stroke: #d29922; stroke-width: 0.5; }
+      .card-medium { fill: #0a1628; stroke: #388bfd; stroke-width: 0.5; }
+      .card-low { fill: #161b22; stroke: #8b949e; stroke-width: 0.5; }
+      .accent-critical { fill: #f85149; }
+      .accent-high { fill: #d29922; }
+      .accent-medium { fill: #388bfd; }
+      .accent-low { fill: #8b949e; }
+      .cve-id { font-family: 'Courier New', monospace; font-size: 11px; font-weight: 700; fill: #e6edf3; }
+      .cve-type { font-family: 'Courier New', monospace; font-size: 9.5px; fill: #8b949e; }
+      .cve-score-critical { font-family: 'Courier New', monospace; font-size: 12px; font-weight: 700; fill: #f85149; }
+      .cve-score-high { font-family: 'Courier New', monospace; font-size: 12px; font-weight: 700; fill: #d29922; }
+      .cve-score-medium { font-family: 'Courier New', monospace; font-size: 12px; font-weight: 700; fill: #388bfd; }
+      .cve-score-low { font-family: 'Courier New', monospace; font-size: 12px; font-weight: 700; fill: #8b949e; }
+      .legend-text { font-family: 'Courier New', monospace; font-size: 11px; fill: #8b949e; }
+      .title { font-family: 'Courier New', monospace; font-size: 13px; font-weight: 700; fill: #e6edf3; letter-spacing: 2px; }
+    </style>
+  </defs>
+
+  <rect width="800" height="620" fill="#0d1117" rx="8"/>
+
+  <!-- Title -->
+  <text x="24" y="30" class="title">CVE RESEARCH</text>
+  <text x="170" y="30" font-family="Courier New" font-size="11" fill="#8b949e"> — 24 published vulnerabilities</text>
+
+  <!-- Legend -->
+  <rect x="24" y="44" width="8" height="8" rx="2" fill="#f85149"/>
+  <text x="36" y="52" class="legend-text">Critical (9+)</text>
+  <rect x="115" y="44" width="8" height="8" rx="2" fill="#d29922"/>
+  <text x="127" y="52" class="legend-text">High (7–8.9)</text>
+  <rect x="210" y="44" width="8" height="8" rx="2" fill="#388bfd"/>
+  <text x="222" y="52" class="legend-text">Medium (4–6.9)</text>
+  <rect x="320" y="44" width="8" height="8" rx="2" fill="#8b949e"/>
+  <text x="332" y="52" class="legend-text">Low (&lt;4)</text>
+
+  <!-- ROW 1 — Critical -->
+  <!-- Card 1 -->
+  <rect x="24" y="68" width="178" height="56" rx="4" class="card-critical"/>
+  <rect x="24" y="68" width="3" height="56" rx="2" class="accent-critical"/>
+  <text x="34" y="86" class="cve-id">CVE-2025-2199</text>
+  <text x="34" y="100" class="cve-type">SQL Injection</text>
+  <text x="34" y="114" class="cve-score-critical">9.3</text>
+
+  <!-- Card 2 -->
+  <rect x="210" y="68" width="178" height="56" rx="4" class="card-critical"/>
+  <rect x="210" y="68" width="3" height="56" rx="2" class="accent-critical"/>
+  <text x="220" y="86" class="cve-id">CVE-2025-41375</text>
+  <text x="220" y="100" class="cve-type">SQL Injection</text>
+  <text x="220" y="114" class="cve-score-critical">9.3</text>
+
+  <!-- Card 3 -->
+  <rect x="396" y="68" width="178" height="56" rx="4" class="card-critical"/>
+  <rect x="396" y="68" width="3" height="56" rx="2" class="accent-critical"/>
+  <text x="406" y="86" class="cve-id">CVE-2025-2200</text>
+  <text x="406" y="100" class="cve-type">SQL Injection</text>
+  <text x="406" y="114" class="cve-score-critical">9.3</text>
+
+  <!-- Card 4 -->
+  <rect x="582" y="68" width="194" height="56" rx="4" class="card-critical"/>
+  <rect x="582" y="68" width="3" height="56" rx="2" class="accent-critical"/>
+  <text x="592" y="86" class="cve-id">CVE-2026-1435</text>
+  <text x="592" y="100" class="cve-type">Session Expiration</text>
+  <text x="592" y="114" class="cve-score-critical">9.1</text>
+
+  <!-- ROW 2 — High -->
+  <rect x="24" y="136" width="178" height="56" rx="4" class="card-high"/>
+  <rect x="24" y="136" width="3" height="56" rx="2" class="accent-high"/>
+  <text x="34" y="154" class="cve-id">CVE-2025-2201</text>
+  <text x="34" y="168" class="cve-type">Broken Access Control</text>
+  <text x="34" y="182" class="cve-score-high">7.1</text>
+
+  <rect x="210" y="136" width="178" height="56" rx="4" class="card-high"/>
+  <rect x="210" y="136" width="3" height="56" rx="2" class="accent-high"/>
+  <text x="220" y="154" class="cve-id">CVE-2025-2202</text>
+  <text x="220" y="168" class="cve-type">Broken Access Control</text>
+  <text x="220" y="182" class="cve-score-high">7.1</text>
+
+  <rect x="396" y="136" width="178" height="56" rx="4" class="card-high"/>
+  <rect x="396" y="136" width="3" height="56" rx="2" class="accent-high"/>
+  <text x="406" y="154" class="cve-id">CVE-2026-1436</text>
+  <text x="406" y="168" class="cve-type">Improper Access Control</text>
+  <text x="406" y="182" class="cve-score-high">7.0</text>
+
+  <!-- ROW 3 — Medium part 1 -->
+  <rect x="24" y="204" width="178" height="56" rx="4" class="card-medium"/>
+  <rect x="24" y="204" width="3" height="56" rx="2" class="accent-medium"/>
+  <text x="34" y="222" class="cve-id">CVE-2025-41082</text>
+  <text x="34" y="236" class="cve-type">HTTP Req Smuggling</text>
+  <text x="34" y="250" class="cve-score-medium">6.9</text>
+
+  <rect x="210" y="204" width="178" height="56" rx="4" class="card-medium"/>
+  <rect x="210" y="204" width="3" height="56" rx="2" class="accent-medium"/>
+  <text x="220" y="222" class="cve-id">CVE-2025-41074</text>
+  <text x="220" y="236" class="cve-type">Infinite Loop</text>
+  <text x="220" y="250" class="cve-score-medium">6.9</text>
+
+  <rect x="396" y="204" width="178" height="56" rx="4" class="card-medium"/>
+  <rect x="396" y="204" width="3" height="56" rx="2" class="accent-medium"/>
+  <text x="406" y="222" class="cve-id">CVE-2025-41075</text>
+  <text x="406" y="236" class="cve-type">Infinite Loop</text>
+  <text x="406" y="250" class="cve-score-medium">6.9</text>
+
+  <rect x="582" y="204" width="194" height="56" rx="4" class="card-medium"/>
+  <rect x="582" y="204" width="3" height="56" rx="2" class="accent-medium"/>
+  <text x="592" y="222" class="cve-id">CVE-2025-41076</text>
+  <text x="592" y="236" class="cve-type">Information Exposure</text>
+  <text x="592" y="250" class="cve-score-medium">6.9</text>
+
+  <!-- ROW 4 — Medium XSS -->
+  <rect x="24" y="272" width="178" height="56" rx="4" class="card-medium"/>
+  <rect x="24" y="272" width="3" height="56" rx="2" class="accent-medium"/>
+  <text x="34" y="290" class="cve-id">CVE-2026-1437</text>
+  <text x="34" y="304" class="cve-type">Cross-Site Scripting</text>
+  <text x="34" y="318" class="cve-score-medium">6.1</text>
+
+  <rect x="210" y="272" width="178" height="56" rx="4" class="card-medium"/>
+  <rect x="210" y="272" width="3" height="56" rx="2" class="accent-medium"/>
+  <text x="220" y="290" class="cve-id">CVE-2026-1438</text>
+  <text x="220" y="304" class="cve-type">Cross-Site Scripting</text>
+  <text x="220" y="318" class="cve-score-medium">6.1</text>
+
+  <rect x="396" y="272" width="178" height="56" rx="4" class="card-medium"/>
+  <rect x="396" y="272" width="3" height="56" rx="2" class="accent-medium"/>
+  <text x="406" y="290" class="cve-id">CVE-2026-1439</text>
+  <text x="406" y="304" class="cve-type">Cross-Site Scripting</text>
+  <text x="406" y="318" class="cve-score-medium">6.1</text>
+
+  <rect x="582" y="272" width="194" height="56" rx="4" class="card-medium"/>
+  <rect x="582" y="272" width="3" height="56" rx="2" class="accent-medium"/>
+  <text x="592" y="290" class="cve-id">CVE-2026-1440</text>
+  <text x="592" y="304" class="cve-type">Cross-Site Scripting</text>
+  <text x="592" y="318" class="cve-score-medium">6.1</text>
+
+  <!-- ROW 5 -->
+  <rect x="24" y="340" width="178" height="56" rx="4" class="card-medium"/>
+  <rect x="24" y="340" width="3" height="56" rx="2" class="accent-medium"/>
+  <text x="34" y="358" class="cve-id">CVE-2026-1441</text>
+  <text x="34" y="372" class="cve-type">Cross-Site Scripting</text>
+  <text x="34" y="386" class="cve-score-medium">6.1</text>
+
+  <rect x="210" y="340" width="178" height="56" rx="4" class="card-medium"/>
+  <rect x="210" y="340" width="3" height="56" rx="2" class="accent-medium"/>
+  <text x="220" y="358" class="cve-id">CVE-2025-41376</text>
+  <text x="220" y="372" class="cve-type">CRLF Injection</text>
+  <text x="220" y="386" class="cve-score-medium">5.1</text>
+
+  <rect x="396" y="340" width="178" height="56" rx="4" class="card-medium"/>
+  <rect x="396" y="340" width="3" height="56" rx="2" class="accent-medium"/>
+  <text x="406" y="358" class="cve-id">CVE-2025-41083</text>
+  <text x="406" y="372" class="cve-type">Host Header Injection</text>
+  <text x="406" y="386" class="cve-score-medium">5.1</text>
+
+  <rect x="582" y="340" width="194" height="56" rx="4" class="card-medium"/>
+  <rect x="582" y="340" width="3" height="56" rx="2" class="accent-medium"/>
+  <text x="592" y="358" class="cve-id">CVE-2025-3026</text>
+  <text x="592" y="372" class="cve-type">Host Header Injection</text>
+  <text x="592" y="386" class="cve-score-medium">5.1</text>
+
+  <!-- ROW 6 -->
+  <rect x="24" y="408" width="178" height="56" rx="4" class="card-medium"/>
+  <rect x="24" y="408" width="3" height="56" rx="2" class="accent-medium"/>
+  <text x="34" y="426" class="cve-id">CVE-2025-3027</text>
+  <text x="34" y="440" class="cve-type">Open Redirect</text>
+  <text x="34" y="454" class="cve-score-medium">5.1</text>
+
+  <rect x="210" y="408" width="178" height="56" rx="4" class="card-medium"/>
+  <rect x="210" y="408" width="3" height="56" rx="2" class="accent-medium"/>
+  <text x="220" y="426" class="cve-id">CVE-2025-40630</text>
+  <text x="220" y="440" class="cve-type">Open Redirect</text>
+  <text x="220" y="454" class="cve-score-medium">5.1</text>
+
+  <!-- ROW 7 — Low -->
+  <rect x="396" y="408" width="178" height="56" rx="4" class="card-low"/>
+  <rect x="396" y="408" width="3" height="56" rx="2" class="accent-low"/>
+  <text x="406" y="426" class="cve-id">CVE-2025-40710</text>
+  <text x="406" y="440" class="cve-type">Host Header Injection</text>
+  <text x="406" y="454" class="cve-score-low">2.3</text>
+
+  <rect x="582" y="408" width="194" height="56" rx="4" class="card-low"/>
+  <rect x="582" y="408" width="3" height="56" rx="2" class="accent-low"/>
+  <text x="592" y="426" class="cve-id">CVE-2025-40631</text>
+  <text x="592" y="440" class="cve-type">Host Header Injection</text>
+  <text x="592" y="454" class="cve-score-low">2.0</text>
+
+  <rect x="24" y="476" width="178" height="56" rx="4" class="card-low"/>
+  <rect x="24" y="476" width="3" height="56" rx="2" class="accent-low"/>
+  <text x="34" y="494" class="cve-id">CVE-2025-40632</text>
+  <text x="34" y="508" class="cve-type">Cross-Site Scripting</text>
+  <text x="34" y="522" class="cve-score-low">2.0</text>
+
+  <!-- Bottom line -->
+  <line x1="24" y1="552" x2="776" y2="552" stroke="#21262d" stroke-width="0.5"/>
+  <text x="24" y="568" font-family="Courier New" font-size="10" fill="#8b949e">github.com/B3XAL</text>
+  <text x="776" y="568" font-family="Courier New" font-size="10" fill="#8b949e" text-anchor="end">24 CVEs · last updated 2026</text>
+</svg>
